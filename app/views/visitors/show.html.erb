@@ -1,0 +1,13 @@
+<article class="blog-post">
+
+<h2 class="display-5 link-body-emphasis mb-4"> <%= @visitor.name %></h2>
+<p class="blog-post-meta">CPF: <%= cpf_formatted(@visitor.cpf) %></p>
+<p class="blog-post-meta">Visit Sector: <%= @visitor.visit_sector %></p>
+<p class="blog-post-meta">Created At: <%= (@visitor.created_at) %></p>
+
+<p>Observation:  <%= @visitor.observation %> </p>
+
+<%= link_to 'Back', visitors_path, class: 'btn btn-primary' %>
+<%= link_to 'Edit', edit_visitor_path(@visitor), class: 'btn btn-success' %>
+
+</article>

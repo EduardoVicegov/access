@@ -1,0 +1,13 @@
+<% if controller_name == 'visitors' && action_name == 'index' %> 
+  <%= search_form_for @q, class:"d-flex", role:"search" do |f| %>
+    <div class="input-group">
+      <%= f.search_field :name_cont, class:"form-control bg-light border-0 small", placeholder:"Search for..." %>
+      <div class="input-group-append">
+        <%= f.button "", class: "btn btn-primary" do %>      
+          <i class="fas fa-search fa-sm"></i>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+<% end %>
+

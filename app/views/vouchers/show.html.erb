@@ -1,0 +1,17 @@
+<article class="blog-post">
+
+<p class="blog-post-meta">User: <%= @voucher.user_name %></p>
+
+<p class="blog-post-meta">Token: <%= @voucher.token %></p>
+
+<p class="blog-post-meta">Status: <%= @voucher.status %></p>
+
+
+<p class="blog-post-meta">Created At: <%= (@voucher.created_at) %></p>
+
+
+
+<%= link_to 'Back', vouchers_path, class: 'btn btn-primary' %>
+<%= link_to 'Edit', edit_voucher_path(@voucher), class: 'btn btn-success' %>
+
+</article>

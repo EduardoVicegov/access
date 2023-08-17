@@ -1,0 +1,15 @@
+current directory: /home/edinho/Documentos/access/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+/usr/share/rvm/rubies/ruby-3.1.1/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.1/lib/ruby/3.1.0 -r ./siteconf20230812-25052-u3zea1.rb extconf.rb
+creating Makefile
+
+current directory: /home/edinho/Documentos/access/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /home/edinho/Documentos/access/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/edinho/Documentos/access/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20230812-25052-8uvmrx/bootsnap

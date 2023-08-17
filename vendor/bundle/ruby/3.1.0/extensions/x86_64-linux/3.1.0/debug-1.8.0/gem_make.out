@@ -1,0 +1,16 @@
+current directory: /home/edinho/Documentos/access/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+/usr/share/rvm/rubies/ruby-3.1.1/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.1/lib/ruby/3.1.0 -r ./siteconf20230812-25052-nzsymc.rb extconf.rb
+creating Makefile
+
+current directory: /home/edinho/Documentos/access/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/edinho/Documentos/access/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/edinho/Documentos/access/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230812-25052-d1dcni/debug

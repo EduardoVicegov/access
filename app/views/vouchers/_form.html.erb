@@ -1,0 +1,18 @@
+<%= simple_form_for voucher do |f| %>
+
+  <p>
+      <%= f.input :user_name %>
+  </p>
+
+  <p>
+      <%= f.input :token %>
+  </p>
+    <p>
+      <%= f.input :status %>
+  </p>
+  <p>
+      <%= f.button :submit, class: 'btn btn-success' %>
+      <%= link_to "Back", vouchers_path, class: 'btn btn-primary' %>
+  </p>
+
+<% end %>
